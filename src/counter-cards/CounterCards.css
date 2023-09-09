@@ -1,0 +1,116 @@
+.ctext {
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ctext h1 {
+    margin-right: 5px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.ctext p {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.crow {
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.crow .ccolumn {
+    height: 120px;
+    width: 250px;
+    color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    background-color: rgba(81, 34, 159, 0.9);
+}
+
+.ccard {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ccard-name {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    letter-spacing: 0.05rem;
+}
+.cspace {
+    margin-right: 5px;
+}
+
+@media only screen and (min-width: 319px) and (max-width: 425px) {
+    .crow {
+        display: flex;
+        max-width: 80%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .crow .ccolumn {
+        display: block;
+        height: 140px;
+        width: 250px;
+        color: rgba(255, 255, 255, 0.85);
+        margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 767px) {
+    .crow {
+        display: flex;
+        max-width: 80%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .crow .ccolumn {
+        display: block;
+        height: 140px;
+        width: 250px;
+        color: rgba(255, 255, 255, 0.85);
+        margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .crow {
+        display: flex;
+        max-width: 80%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .crow .ccolumn {
+        display: block;
+        height: 140px;
+        width: 250px;
+        color: rgba(255, 255, 255, 0.85);
+        margin-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1330px) {
+    .crow .ccolumn {
+        margin-right: 20px;
+    }
+}

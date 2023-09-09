@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.RootDiv {
+  background-image: url("./assets/background-svg.svg");
+  height: 100%;
+  background-repeat: repeat-y;
+  z-index: -10;
+}

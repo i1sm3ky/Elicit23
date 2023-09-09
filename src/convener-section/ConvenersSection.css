@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter&family=Poppins&display=swap');
+
+.containerof0 {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #000000, #000000);
+    padding: 10px;
+}
+
+.card0 {
+    width: 15rem;
+    height: 20rem;
+    margin: 100px auto 0;
+    perspective: 1000px;
+    background-color: transparent;
+    border-radius: 15px;
+}
+
+.card-inner0 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.front0, .back0 {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    position: absolute;
+    backface-visibility: hidden;
+    box-shadow: 0 0 20px 5px #a257db;
+
+}
+
+.front0 {
+    background-size: cover;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #fff;
+}
+
+.Person-10 {
+    background-image: url("./images/soham.png");
+}
+
+.Person-20 {
+    background-image: url("./images/nikunj.png");
+}
+
+.Person-30 {
+    background-image: url("./images/vishesh.png");
+}
+
+.Person-40 {
+    background-image: url("./images/mainImage.png");
+}
+
+.front0 h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.front0 p {
+    color: #ccc;
+    font-size: 0.9rem;
+}
+
+.back0 {
+    background: rgba(179, 153, 230, 0.63);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: #333;
+    padding: 20px 30px;
+    transform: rotateY(180deg);
+}
+
+.back0 h1 {
+    font-size: 35px;
+    line-height: 55px;
+    margin-bottom: 10px;
+}
+
+.back0 h1 span {
+    font-weight: 400;
+}
+
+.back0 p {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.back0 p span {
+    font-weight: 600;
+}
+
+.row0 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    bottom: 12%;
+    left: 25%;
+    position: absolute;
+}
+
+.back0 button {
+    background: #c22e8d;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 8px 25px;
+    border-radius: 30px;
+    font-size: 14px;
+    margin-right: 15px;
+    box-shadow: 0 8px 10px rgba(120, 0, 173, 0.3);
+}
+
+.back0 a {
+    width: 50px;
+    height: 45px;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    background-color: white;
+}
+
+.back0 a:hover {
+    transform: scale(1.12);
+    transition: 0.5s ease-in-out;
+}
+
+.back0 a img {
+    width: 60%;
+}
+
+.card0:hover .card-inner0 {
+    transform: rotateY(180deg);
+}
+
+.containerof-20 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+
+    .back0 a {
+        width: 50px;
+        height: 45px;
+        border-radius: 50%;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 5px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:1100px) {
+    .card0 {
+        width: 270px;
+        height: 390px;
+    }
+}
